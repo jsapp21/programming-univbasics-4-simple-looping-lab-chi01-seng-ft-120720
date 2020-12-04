@@ -48,8 +48,9 @@ end
 
 def return_string_array(array)
   array.map do |element|
-    binding.pry 
+    element.to_s 
   end
+  array 
 end 
 
 # def return_string_array(array)
